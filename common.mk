@@ -266,6 +266,10 @@ TARGET_COMMON_QTI_COMPONENTS := \
     wfd \
     wlan
 
+# RIL
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full
+
 # SEMC Display
 PRODUCT_PACKAGES += \
     vendor.semc.hardware.display@2.4.vendor
