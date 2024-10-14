@@ -1,1 +1,2 @@
 dontaudit tee rootfs:dir read;
+dontaudit tee rootfs:dir { open };
