@@ -37,7 +37,7 @@
 /dev/block/platform/soc/1d84000\.ufshc/by-name/LTALabel   u:object_r:ltalabel_block_device:s0
 
 # Fingerprint devices
-/dev/esfp0        u:object_r:etsd_device:s0
+/dev/fingerprint        u:object_r:etsd_device:s0
 
 # Shell scripts
 /(vendor|system/vendor|odm|vendor/odm)/bin/init\.sony\.sh        u:object_r:init-sony-sh_exec:s0
