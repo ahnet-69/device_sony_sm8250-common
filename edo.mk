@@ -356,10 +356,6 @@ TARGET_BOARD_PLATFORM := kona
 TARGET_COMMON_QTI_COMPONENTS := \
     alarm
 
-# RIL
-PRODUCT_PACKAGES += \
-    android.hardware.radio-service.compat
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.multihal
