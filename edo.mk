@@ -283,9 +283,6 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
-# Kernel
-PRODUCT_ENABLE_UFFD_GC := true
-
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
