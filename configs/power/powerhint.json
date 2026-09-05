@@ -92,26 +92,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "DoubleTapToWakepanel",
-      "Path": "/sys/devices/dsi_panel_driver/pre_sod_mode",
-      "Values": [
-        "0",
-        "1"
-      ],
-      "DefaultIndex": 0,
-      "ResetOnInit": true
-    },
-    {
-      "Name": "DoubleTapToWaketsp",
-      "Path": "/sys/devices/virtual/sec/tsp/cmd",
-      "Values": [
-        "sod_enable,0",
-        "sod_enable,1"
-      ],
-      "DefaultIndex": 0,
-      "ResetOnInit": true
-    },
-    {
       "Name": "GPUMaxFreq",
       "Path": "/sys/class/kgsl/kgsl-3d0/max_pwrlevel",
       "Values": [
@@ -970,18 +950,6 @@
       "Node": "CPUBigPlusClusterMaxFreq",
       "Duration": 3600000,
       "Value": "2649600"
-    },
-    {
-      "PowerHint": "DOUBLE_TAP_TO_WAKE",
-      "Node": "DoubleTapToWakepanel",
-      "Duration": 0,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "DOUBLE_TAP_TO_WAKE",
-      "Node": "DoubleTapToWaketsp",
-      "Duration": 0,
-      "Value": "sod_enable,1"
     }
   ]
 }
